@@ -21,3 +21,16 @@ matris = ['al', 'kitab', 'film', 'yol', 'stul']
 for i in matris:
     if len(i)>2:
         print(i)
+
+
+
+5)
+soz = input("soz daxil edin: ")
+yeniSoz = " "
+
+if len(soz) <= 2:
+    print(yeniSoz)
+
+else:
+    yeniSoz = soz[0] + soz[1] + soz[-2] + soz[-1]
+print(yeniSoz)
